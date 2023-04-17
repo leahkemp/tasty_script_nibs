@@ -2,7 +2,7 @@
 
 Logging all commands run in the terminal to file, in  a hidden directory at `~/.logs/`.
 
-In regular bash, popping this wee script into my ~/.bashrc file worked great, as long as the `~/.logs/` dir existed.
+In regular bash, popping this wee script (provided by James Ferguson: https://github.com/Psy-Fer) into my ~/.bashrc file worked great, as long as the `~/.logs/` dir existed.
 
 ```bash
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
