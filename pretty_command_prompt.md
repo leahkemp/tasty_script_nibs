@@ -18,7 +18,7 @@ It gives:
 
 - username
 - machine
-- directory (shortened to a depth of 1
+- directory (shortened to a depth of 1)
 - a $ to indicate I'm in a bash shell
 
 I've transitioned to working on a mac (macOS Ventura) which uses zsh as 
@@ -38,5 +38,5 @@ It gives:
 
 - username
 - machine
-- directory (shortened to a depth of 1
+- directory (shortened to a depth of 1)
 - a % to indicate I'm in a zsh shell
